@@ -31,6 +31,7 @@ userLogin: UserLogin = new UserLogin()
       environment.foto = this.userLogin.foto
       environment.id = this.userLogin.id
       environment.email = this.userLogin.email
+      environment.tipo = this.userLogin.tipo
 
       console.log(environment.token)
       console.log(environment.nome)
